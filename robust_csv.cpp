@@ -47,7 +47,7 @@ int main(){
 
         }catch (const invalid_argument& e){
             //This block runs if stoi fails to convert the text to a number
-            cout<<"WARNING: Skipping malformed record for" << name << "(Invalid score data)." << endl;
+            cout<<"WARNING: Skipping malformed record for " << name << "(Invalid score data)." << endl;
             // Because we caught the error, the loop continues to the next student!
         }
     }
