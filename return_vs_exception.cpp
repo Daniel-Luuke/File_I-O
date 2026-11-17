@@ -39,8 +39,8 @@ int main() {
     }
     //If an exception is thrown, the 'catch' block handles it.
     catch (const runtime_error& e){
-        cout << "Exception Caught: " << e.what() << endl;
-        cout <<" Exception Strategy: Forced us to handle the error!" << endl;
+        cout <<"Exception Caught: " << e.what() << endl;
+        cout <<"Exception Strategy: Forced us to handle the error!" << endl;
 
     }
 
